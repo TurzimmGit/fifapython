@@ -4,5 +4,5 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port=$PORT
+    startCommand: streamlit run 1_Home.py --server.port=$PORT
     pythonVersion: 3.10.13
